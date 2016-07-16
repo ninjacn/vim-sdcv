@@ -1,7 +1,7 @@
 " Searching word with sdcv at Vim.
 
 function! SearchWord()
-	let expl=system('sdcv --color -n ' .
+	let expl=system('sdcv -n ' .
 				\  expand("<cword>"))
 	windo if
 				\ expand("%")=="diCt-tmp" |
