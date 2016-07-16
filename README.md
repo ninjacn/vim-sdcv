@@ -23,15 +23,4 @@ This plugin follows the standard runtime path structure, and as such it can be i
 
 Mapping for quick search word.
 
-	nmap <leader>w :call SearchWord()<CR>
-
-## File Structure
-
-	├── plugin
-	│   └── sdcv.vim
-	└── README.md
-
-[2]: https://github.com/tpope/vim-pathogen
-[3]: https://github.com/Shougo/neobundle.vim
-[4]: https://github.com/gmarik/vundle
-
+	nmap <leader>t :call SearchWord()<CR>
