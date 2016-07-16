@@ -6,7 +6,7 @@ function! SearchWord()
 	windo if
 				\ expand("%")=="diCt-tmp" |
 				\ q!|endif
-	40vsp diCt-tmp
+	100vsp diCt-tmp
 	setlocal buftype=nofile bufhidden=hide noswapfile
 	1s/^/\=expl/
 	1
